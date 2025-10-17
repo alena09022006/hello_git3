@@ -1,0 +1,22 @@
+get status
+*.log
+
+
+venv/
+
+
+.DS_Store
+
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+git add .gitignore
+git commit -m "Add .gitignore with basic rules"
+git push
+get status

@@ -1,0 +1,79 @@
+git add index.html
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мои проекты на Python</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        .project-list {
+            list-style: none;
+            padding: 0;
+        }
+        .project-item {
+            background: #ecf0f1;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #3498db;
+        }
+        .project-item:hover {
+            background: #d5dbdb;
+            transform: translateX(5px);
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Мои проекты на Python</h1>
+        <p>Здесь собраны идеи проектов, которые мне интересно реализовать:</p>
+        
+        <ul class="project-list">
+            <li class="project-item">
+                <strong>Умный планировщик задач</strong> - приложение с AI-помощником для планирования дня и расстановки приоритетов
+            </li>
+            <li class="project-item">
+                <strong>Генератор персональных тренировок</strong> - программа, создающая индивидуальные планы тренировок
+            </li>
+            <li class="project-item">
+                <strong>Анализатор привычек</strong> - трекер привычек с визуализацией прогресса и рекомендациями
+            </li>
+            <li class="project-item">
+                <strong>Визуализатор данных о погоде</strong> - веб-приложение для отображения метеоданных с красивыми графиками
+            </li>
+        </ul>
+        
+        <p><em>Обновлено: <span id="current-date"></span></em></p>
+    </div>
+
+    <script>
+        // Добавляем текущую дату
+        document.getElementById('current-date').textContent = new Date().toLocaleDateString('ru-RU');
+    </script>
+</body>
+</html>
+# Добавляем файл в индекс
+git add index.html
+
+# Создаем коммит
+git commit -m "Add index.html with wishlist"
+git commit -m "Add index.html with wishlist"
+git push origin develop
